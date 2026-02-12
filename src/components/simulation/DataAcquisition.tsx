@@ -105,7 +105,7 @@ export default function DataAcquisition() {
 
                 <div className="md:col-span-2 min-h-[300px] bg-slate-50 rounded-lg border border-slate-200 p-2">
                     <ResponsiveContainer width="100%" height="100%">
-                        <LineChart data={data} margin={{ top: 20, right: 20, bottom: 40, left: 20 }}>
+                        <LineChart data={data} margin={{ top: 20, right: 20, bottom: 40, left: 50 }}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey="value" label={{ value: variable === 'sandTempPeak' ? 'Temp (°C)' : 'Seebeck (V/K)', position: 'insideBottom', offset: -5 }} />
                             <YAxis yAxisId="left" label={{ value: 'Energy (Wh)', angle: -90, position: 'insideLeft' }} />

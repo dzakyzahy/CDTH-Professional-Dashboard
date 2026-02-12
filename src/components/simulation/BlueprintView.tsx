@@ -81,7 +81,7 @@ export default function BlueprintView() {
                         {[...Array(12)].map((_, i) => (
                             <div key={i} className="w-2 h-12 bg-gradient-to-t from-slate-400 to-slate-600 rounded-t-sm" />
                         ))}
-                        <div className="absolute top-2 right-4 text-xs text-slate-400 font-mono">Al-6061 Alloy</div>
+                        <div className="absolute -top-1 right-4 text-xs text-slate-400 font-mono">Al-6061 Alloy</div>
                     </div>
                 </Layer>
 

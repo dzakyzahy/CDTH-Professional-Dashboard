@@ -23,7 +23,7 @@ export default function RootLayout({
         <nav className="fixed top-0 w-full z-50 bg-[#295289]/90 backdrop-blur-md text-white shadow-lg h-20 border-b border-white/10">
           <div className="container mx-auto px-4 h-full flex items-center justify-between relative">
             {/* Left: Logos */}
-            <div className="flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-3">
               <div className="flex items-center gap-2 bg-white/10 px-3 py-1.5 rounded-full backdrop-blur-sm border border-white/20">
                 {[
                   { src: "/assets/Logo_Undiksha.png", alt: "Undiksha" },
